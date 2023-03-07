@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author falyarivelo
  */
 public class FrontServlet extends HttpServlet {
+    HashMap<String,Mapping> mappingUrl = new HashMap<String, Mapping>();
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
